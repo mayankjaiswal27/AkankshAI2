@@ -1,0 +1,2437 @@
+.home-container {
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-desktop2 {
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .home-text {
+    top: 86px;
+    left: 804px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text02 {
+    top: 86px;
+    left: 922px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-group18 {
+    top: 86px;
+    left: 86px;
+    width: 170px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group16 {
+    top: 0px;
+    left: 48.98095703125px;
+    width: 25.980928421020508px;
+    height: 55.52251434326172px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector16 {
+    top: 12.248095512390137px;
+    left: 0px;
+    width: 26px;
+    height: 43px;
+    position: absolute;
+  }
+  .home-ellipse20 {
+    top: 19.187713623046875px;
+    left: -11.226712226867676px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-star1 {
+    top: 4.647267818450928px;
+    left: -10.002130508422852px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+  }
+  .home-text04 {
+    top: 11px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text05 {
+    color: rgba(0, 0, 0, 1);
+  }
+  .home-text07 {
+    top: 319px;
+    left: 89px;
+    color: rgba(0, 0, 0, 0.6000000238418579);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text09 {
+    top: 230px;
+    left: 86px;
+    color: rgba(55, 81, 254, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-line1 {
+    top: 122px;
+    left: 802px;
+    width: 69px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-rectangle3 {
+    top: 625px;
+    left: 118px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    border-color: rgba(229, 229, 229, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .home-rectangle4 {
+    top: 714px;
+    left: 85px;
+    width: 129px;
+    height: 54px;
+    position: absolute;
+  }
+  .home-rectangle5 {
+    top: 714px;
+    left: 247px;
+    width: 129px;
+    height: 54px;
+    position: absolute;
+    border-color: rgba(55, 81, 254, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .home-rectangle6 {
+    top: -26px;
+    left: 671px;
+    width: 778px;
+    height: 1072px;
+    position: absolute;
+  }
+  .home-text11 {
+    top: 86px;
+    left: 1068px;
+    color: rgba(0, 0, 0, 0.6100000143051147);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-rectangle2 {
+    top: 526px;
+    left: 89px;
+    width: 554px;
+    height: 74px;
+    position: absolute;
+    border-color: rgba(193, 186, 186, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .home-rectangle7 {
+    top: 625px;
+    left: 118px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    border-color: rgba(229, 229, 229, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .home-rectangle8 {
+    top: 714px;
+    left: 85px;
+    width: 129px;
+    height: 54px;
+    position: absolute;
+  }
+  .home-rectangle9 {
+    top: 714px;
+    left: 247px;
+    width: 129px;
+    height: 54px;
+    position: absolute;
+    border-color: rgba(55, 81, 254, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .home-text13 {
+    top: 538px;
+    left: 116px;
+    color: rgba(0, 0, 0, 0.6100000143051147);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text15 {
+    top: 621px;
+    left: 142px;
+    color: rgba(0, 0, 0, 0.6100000143051147);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text17 {
+    top: 849px;
+    left: 85px;
+    color: rgba(0, 0, 0, 0.6100000143051147);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text19 {
+    top: 849px;
+    left: 268px;
+    color: rgba(55, 81, 254, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text21 {
+    top: 731px;
+    left: 131px;
+    color: rgba(55, 81, 254, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text23 {
+    top: 731px;
+    left: 281px;
+    color: rgba(11, 48, 241, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text25 {
+    top: 621px;
+    left: 498px;
+    color: rgba(0, 0, 0, 0.6100000143051147);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-emaisection {
+    top: 431px;
+    left: 89px;
+    width: 554px;
+    height: 74px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .home-rectangle1 {
+    top: 0px;
+    left: 0px;
+    width: 554px;
+    height: 74px;
+    position: absolute;
+    border-color: rgba(193, 186, 186, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .home-line2 {
+    top: 73px;
+    left: 4px;
+    width: 72px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-text27 {
+    top: 12px;
+    left: 27px;
+    color: rgba(0, 0, 0, 0.6100000143051147);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text29 {
+    top: 39px;
+    left: 27px;
+    color: rgba(55, 81, 254, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-text31 {
+    top: 565px;
+    left: 116px;
+    color: rgba(55, 81, 254, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .home-objects {
+    top: 325px;
+    left: 720px;
+    width: 670.6309814453125px;
+    height: 402.59100341796875px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group {
+    top: 31.730003356933594px;
+    left: 89.69880676269531px;
+    width: 417.4122314453125px;
+    height: 276.037841796875px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group01 {
+    top: 81.63300323486328px;
+    left: 280.58709716796875px;
+    width: 70.19902801513672px;
+    height: 68.6001205444336px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group02 {
+    top: 4.2418670654296875px;
+    left: 0px;
+    width: 64.09110260009766px;
+    height: 64.3582534790039px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector {
+    top: 0px;
+    left: 0px;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+  }
+  .home-vector001 {
+    top: 0px;
+    left: 38.020111083984375px;
+    width: 32px;
+    height: 36px;
+    position: absolute;
+  }
+  .home-group03 {
+    top: 76.56713104248047px;
+    left: 0px;
+    width: 255.3646240234375px;
+    height: 199.470703125px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector002 {
+    top: 31.145889282226562px;
+    left: 0px;
+    width: 168px;
+    height: 168px;
+    position: absolute;
+  }
+  .home-vector003 {
+    top: 0px;
+    left: 169.74180603027344px;
+    width: 86px;
+    height: 86px;
+    position: absolute;
+  }
+  .home-group04 {
+    top: 0px;
+    left: 40.97119140625px;
+    width: 102.89100646972656px;
+    height: 51.758995056152344px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector004 {
+    top: 0px;
+    left: 0px;
+    width: 103px;
+    height: 52px;
+    position: absolute;
+  }
+  .home-vector005 {
+    top: 4.391998291015625px;
+    left: 8.729995727539062px;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+  }
+  .home-vector006 {
+    top: 4.391998291015625px;
+    left: 8.729995727539062px;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+  }
+  .home-vector007 {
+    top: 4.391998291015625px;
+    left: 8.729995727539062px;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+  }
+  .home-vector008 {
+    top: 7.5279998779296875px;
+    left: 60.227996826171875px;
+    width: 32px;
+    height: 5px;
+    position: absolute;
+  }
+  .home-vector009 {
+    top: 14.742996215820312px;
+    left: 60.227996826171875px;
+    width: 32px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector010 {
+    top: 19.762001037597656px;
+    left: 60.227996826171875px;
+    width: 32px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector011 {
+    top: 23.3699951171875px;
+    left: 60.227996826171875px;
+    width: 27px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-group05 {
+    top: 32.550994873046875px;
+    left: 334.04718017578125px;
+    width: 83.36502075195312px;
+    height: 70.56900787353516px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector012 {
+    top: 0px;
+    left: 0px;
+    width: 83px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector013 {
+    top: 11.535003662109375px;
+    left: 13.376983642578125px;
+    width: 50px;
+    height: 33px;
+    position: absolute;
+  }
+  .home-vector014 {
+    top: 18.659996032714844px;
+    left: 17.39898681640625px;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector015 {
+    top: 23.652000427246094px;
+    left: 17.39898681640625px;
+    width: 26px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector016 {
+    top: 14.928001403808594px;
+    left: 56.610015869140625px;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector017 {
+    top: 1.9380035400390625px;
+    left: 76.43399047851562px;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector018 {
+    top: 0px;
+    left: 0px;
+    width: 83px;
+    height: 71px;
+    position: absolute;
+  }
+  .home-group06 {
+    top: 169.51300048828125px;
+    left: 0px;
+    width: 670.6309814453125px;
+    height: 233.0780029296875px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group07 {
+    top: 0px;
+    left: 223.58798217773438px;
+    width: 411.8789978027344px;
+    height: 233.0780029296875px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector019 {
+    top: 124.88198852539062px;
+    left: 0px;
+    width: 64px;
+    height: 108px;
+    position: absolute;
+  }
+  .home-vector020 {
+    top: 124.88198852539062px;
+    left: 64.25900268554688px;
+    width: 18px;
+    height: 108px;
+    position: absolute;
+  }
+  .home-vector021 {
+    top: 87.19699096679688px;
+    left: 110.7540283203125px;
+    width: 64px;
+    height: 146px;
+    position: absolute;
+  }
+  .home-vector022 {
+    top: 87.19699096679688px;
+    left: 175.01202392578125px;
+    width: 18px;
+    height: 146px;
+    position: absolute;
+  }
+  .home-vector023 {
+    top: 40.6510009765625px;
+    left: 221.50701904296875px;
+    width: 64px;
+    height: 192px;
+    position: absolute;
+  }
+  .home-vector024 {
+    top: 40.6510009765625px;
+    left: 285.7660217285156px;
+    width: 18px;
+    height: 192px;
+    position: absolute;
+  }
+  .home-vector025 {
+    top: 0px;
+    left: 329.2610168457031px;
+    width: 64px;
+    height: 233px;
+    position: absolute;
+  }
+  .home-vector026 {
+    top: 0px;
+    left: 393.5199890136719px;
+    width: 18px;
+    height: 233px;
+    position: absolute;
+  }
+  .home-vector027 {
+    top: 232.90499877929688px;
+    left: 0px;
+    width: 671px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector028 {
+    top: 3.68499755859375px;
+    left: 223.58798217773438px;
+    width: 322px;
+    height: 212px;
+    position: absolute;
+  }
+  .home-group08 {
+    top: 100.02400207519531px;
+    left: 18.94127655029297px;
+    width: 169.24172973632812px;
+    height: 302.5670166015625px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group09 {
+    top: 68.16999816894531px;
+    left: 76.31172180175781px;
+    width: 62.649879455566406px;
+    height: 63.09736633300781px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group10 {
+    top: 0px;
+    left: 0px;
+    width: 62.649879455566406px;
+    height: 63.09736633300781px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector029 {
+    top: 0.6295013427734375px;
+    left: 0px;
+    width: 63px;
+    height: 62px;
+    position: absolute;
+  }
+  .home-vector030 {
+    top: 0px;
+    left: 0.9810028076171875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector031 {
+    top: 40.103607177734375px;
+    left: 43.805999755859375px;
+    width: 7px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector032 {
+    top: 34.2969970703125px;
+    left: 49.41300964355469px;
+    width: 5px;
+    height: 7px;
+    position: absolute;
+  }
+  .home-vector033 {
+    top: 36.303009033203125px;
+    left: 47.42401123046875px;
+    width: 0px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector034 {
+    top: 66.24400329589844px;
+    left: 74.0377197265625px;
+    width: 42px;
+    height: 67px;
+    position: absolute;
+  }
+  .home-group11 {
+    top: 240.6160125732422px;
+    left: 0px;
+    width: 41.12541198730469px;
+    height: 61.77772903442383px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector035 {
+    top: 33.145111083984375px;
+    left: 23.747737884521484px;
+    width: 5px;
+    height: 7px;
+    position: absolute;
+  }
+  .home-vector036 {
+    top: 37.117889404296875px;
+    left: 24.380725860595703px;
+    width: 7px;
+    height: 6px;
+    position: absolute;
+  }
+  .home-group12 {
+    top: 0px;
+    left: 1.2577247619628906px;
+    width: 39.861000061035156px;
+    height: 59.00799560546875px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector037 {
+    top: 0px;
+    left: 8.153999328613281px;
+    width: 25px;
+    height: 34px;
+    position: absolute;
+  }
+  .home-vector038 {
+    top: 27.774993896484375px;
+    left: 0px;
+    width: 40px;
+    height: 31px;
+    position: absolute;
+  }
+  .home-vector039 {
+    top: 34.074981689453125px;
+    left: 0px;
+    width: 41px;
+    height: 28px;
+    position: absolute;
+  }
+  .home-group13 {
+    top: 254.86500549316406px;
+    left: 66.12672424316406px;
+    width: 49.99900817871094px;
+    height: 43.9530029296875px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector040 {
+    top: 28.893463134765625px;
+    left: 19.464019775390625px;
+    width: 5px;
+    height: 7px;
+    position: absolute;
+  }
+  .home-vector041 {
+    top: 30.42205810546875px;
+    left: 23.251998901367188px;
+    width: 5px;
+    height: 6px;
+    position: absolute;
+  }
+  .home-vector042 {
+    top: 32.0780029296875px;
+    left: 0px;
+    width: 50px;
+    height: 12px;
+    position: absolute;
+  }
+  .home-vector043 {
+    top: 0px;
+    left: 2.0750045776367188px;
+    width: 17px;
+    height: 35px;
+    position: absolute;
+  }
+  .home-vector044 {
+    top: 298.8170166015625px;
+    left: 66.12771606445312px;
+    width: 50px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-group14 {
+    top: 18.604324340820312px;
+    left: 8.344722747802734px;
+    width: 79.26899719238281px;
+    height: 266.2342224121094px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector045 {
+    top: 115.8516845703125px;
+    left: 0px;
+    width: 79px;
+    height: 150px;
+    position: absolute;
+  }
+  .home-vector046 {
+    top: 136.6026611328125px;
+    left: 55.24500274658203px;
+    width: 6px;
+    height: 29px;
+    position: absolute;
+  }
+  .home-vector047 {
+    top: 122.77166748046875px;
+    left: 30.165000915527344px;
+    width: 13px;
+    height: 19px;
+    position: absolute;
+  }
+  .home-vector048 {
+    top: 120.40267944335938px;
+    left: 31.545997619628906px;
+    width: 45px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector049 {
+    top: 122.39968872070312px;
+    left: 69.29866027832031px;
+    width: 8px;
+    height: 18px;
+    position: absolute;
+  }
+  .home-vector050 {
+    top: 46.85267639160156px;
+    left: 30.472999572753906px;
+    width: 47px;
+    height: 74px;
+    position: absolute;
+  }
+  .home-vector051 {
+    top: 46.85267639160156px;
+    left: 60.709999084472656px;
+    width: 17px;
+    height: 72px;
+    position: absolute;
+  }
+  .home-group15 {
+    top: 0px;
+    left: 33.80628967285156px;
+    width: 40.160003662109375px;
+    height: 53.22267150878906px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector052 {
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 42px;
+    position: absolute;
+  }
+  .home-group16 {
+    top: 38.004669189453125px;
+    left: 15.703712463378906px;
+    width: 12.165000915527344px;
+    height: 15.218002319335938px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group17 {
+    top: 0px;
+    left: 0px;
+    width: 12.165000915527344px;
+    height: 15.218002319335938px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector053 {
+    top: 0px;
+    left: 0px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+  .home-vector054 {
+    top: 38.004669189453125px;
+    left: 16.542709350585938px;
+    width: 11px;
+    height: 6px;
+    position: absolute;
+  }
+  .home-group18 {
+    top: 10.128677368164062px;
+    left: 7.245582580566406px;
+    width: 28.12801170349121px;
+    height: 31.169504165649414px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector055 {
+    top: 0px;
+    left: 5.0863037109375px;
+    width: 23px;
+    height: 31px;
+    position: absolute;
+  }
+  .home-group19 {
+    top: 9.030990600585938px;
+    left: 0px;
+    width: 26.271406173706055px;
+    height: 13.744332313537598px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group20 {
+    top: 0px;
+    left: 11.365898132324219px;
+    width: 14.905508041381836px;
+    height: 13.744332313537598px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector056 {
+    top: 4.3867034912109375px;
+    left: 1.8389205932617188px;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector057 {
+    top: 0px;
+    left: 0.18422698974609375px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector058 {
+    top: 3.535675048828125px;
+    left: 10.2799072265625px;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector059 {
+    top: 0.733001708984375px;
+    left: 9.963226318359375px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector060 {
+    top: 2.91900634765625px;
+    left: 6.8842315673828125px;
+    width: 4px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector061 {
+    top: 8.145401000976562px;
+    left: 0px;
+    width: 3px;
+    height: 3px;
+    opacity: 0.50;
+    position: absolute;
+  }
+  .home-vector062 {
+    top: 9.031890869140625px;
+    left: 11.643905639648438px;
+    width: 3px;
+    height: 3px;
+    opacity: 0.50;
+    position: absolute;
+  }
+  .home-vector063 {
+    top: 11.652999877929688px;
+    left: 3.989227294921875px;
+    width: 5px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-group21 {
+    top: 4.228271484375px;
+    left: 0px;
+    width: 4.768126964569092px;
+    height: 8.166449546813965px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group22 {
+    top: 0px;
+    left: 0px;
+    width: 4.768126964569092px;
+    height: 8.166449546813965px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector064 {
+    top: 0px;
+    left: 0px;
+    width: 5px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector065 {
+    top: 1.6484222412109375px;
+    left: 0.8351287841796875px;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector066 {
+    top: 2.0857391357421875px;
+    left: 1.9013442993164062px;
+    width: 1px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector067 {
+    top: 65.77267456054688px;
+    left: 31.545997619628906px;
+    width: 10px;
+    height: 39px;
+    position: absolute;
+  }
+  .home-group23 {
+    top: 47.639678955078125px;
+    left: 45.47699737548828px;
+    width: 22.04863166809082px;
+    height: 53.850006103515625px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector068 {
+    top: 0px;
+    left: 0px;
+    width: 22px;
+    height: 10px;
+    position: absolute;
+  }
+  .home-vector069 {
+    top: 5.5839996337890625px;
+    left: 13.937004089355469px;
+    width: 5px;
+    height: 7px;
+    position: absolute;
+  }
+  .home-vector070 {
+    top: 8.636001586914062px;
+    left: 13.926002502441406px;
+    width: 8px;
+    height: 45px;
+    position: absolute;
+  }
+  .home-vector071 {
+    top: 160.2729949951172px;
+    left: 10.602725982666016px;
+    width: 31px;
+    height: 106px;
+    position: absolute;
+  }
+  .home-vector072 {
+    top: 155.2069854736328px;
+    left: 63.589725494384766px;
+    width: 7px;
+    height: 130px;
+    position: absolute;
+  }
+  .home-vector073 {
+    top: 0px;
+    left: 13.555721282958984px;
+    width: 39px;
+    height: 87px;
+    position: absolute;
+  }
+  .home-group24 {
+    top: 1.2969970703125px;
+    left: 17.756725311279297px;
+    width: 8.781994819641113px;
+    height: 18.641998291015625px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector074 {
+    top: 13.08599853515625px;
+    left: 5.855369567871094px;
+    width: 3px;
+    height: 6px;
+    position: absolute;
+  }
+  .home-vector075 {
+    top: 8.32476806640625px;
+    left: 0.082000732421875px;
+    width: 6px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector076 {
+    top: 0px;
+    left: 0px;
+    width: 3px;
+    height: 9px;
+    position: absolute;
+  }
+  .home-vector077 {
+    top: 26.606002807617188px;
+    left: 14.916919708251953px;
+    width: 41px;
+    height: 65px;
+    position: absolute;
+  }
+  .home-vector078 {
+    top: 56.60899353027344px;
+    left: 22.200725555419922px;
+    width: 8px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector079 {
+    top: 23.701995849609375px;
+    left: 20.888721466064453px;
+    width: 7px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector080 {
+    top: 30.953994750976562px;
+    left: 20.134723663330078px;
+    width: 8px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector081 {
+    top: 114.39500427246094px;
+    left: 91.58073425292969px;
+    width: 5px;
+    height: 6px;
+    position: absolute;
+  }
+  .home-vector082 {
+    top: 109.01100158691406px;
+    left: 112.70973205566406px;
+    width: 7px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector083 {
+    top: 110.61000061035156px;
+    left: 109.13372802734375px;
+    width: 4px;
+    height: 9px;
+    position: absolute;
+  }
+  .home-group25 {
+    top: 72.21400451660156px;
+    left: 82.20672607421875px;
+    width: 87.03500366210938px;
+    height: 35.26300048828125px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector084 {
+    top: 30.782989501953125px;
+    left: 0px;
+    width: 73px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector085 {
+    top: 0px;
+    left: 25.507003784179688px;
+    width: 62px;
+    height: 35px;
+    position: absolute;
+  }
+  .home-vector086 {
+    top: 14.988998413085938px;
+    left: 56.272003173828125px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+  .home-vector087 {
+    top: 14.069992065429688px;
+    left: 20.134723663330078px;
+    width: 4px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-group26 {
+    top: 33.423927307128906px;
+    left: 190.22499084472656px;
+    width: 226.2670135498047px;
+    height: 260.73406982421875px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group27 {
+    top: 83.01306915283203px;
+    left: 0px;
+    width: 67.90853881835938px;
+    height: 56.50382614135742px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector088 {
+    top: 33.92185974121094px;
+    left: 6.9539794921875px;
+    width: 36px;
+    height: 50px;
+    position: absolute;
+  }
+  .home-vector089 {
+    top: 0px;
+    left: 0px;
+    width: 23px;
+    height: 34px;
+    position: absolute;
+  }
+  .home-vector090 {
+    top: 16.7130126953125px;
+    left: 15.667999267578125px;
+    width: 45px;
+    height: 23px;
+    position: absolute;
+  }
+  .home-vector091 {
+    top: 3.444580078125px;
+    left: 37.44999694824219px;
+    width: 18px;
+    height: 14px;
+    position: absolute;
+  }
+  .home-vector092 {
+    top: 21.427215576171875px;
+    left: 27.891403198242188px;
+    width: 4px;
+    height: 5px;
+    position: absolute;
+  }
+  .home-vector093 {
+    top: 30.05120849609375px;
+    left: 44.90321350097656px;
+    width: 4px;
+    height: 5px;
+    position: absolute;
+  }
+  .home-vector094 {
+    top: 192.89309692382812px;
+    left: 178.00099182128906px;
+    width: 28px;
+    height: 25px;
+    position: absolute;
+  }
+  .home-vector095 {
+    top: 211.12808227539062px;
+    left: 64.89201354980469px;
+    width: 23px;
+    height: 34px;
+    position: absolute;
+  }
+  .home-vector096 {
+    top: 203.63009643554688px;
+    left: 175.5480499267578px;
+    width: 48px;
+    height: 16px;
+    position: absolute;
+  }
+  .home-group28 {
+    top: 218.91262817382812px;
+    left: 59.64299011230469px;
+    width: 28.329010009765625px;
+    height: 38.05347442626953px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group29 {
+    top: 0px;
+    left: 0px;
+    width: 28.329010009765625px;
+    height: 38.05347442626953px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector097 {
+    top: 0px;
+    left: 0px;
+    width: 28px;
+    height: 38px;
+    position: absolute;
+  }
+  .home-group30 {
+    top: 209.35409545898438px;
+    left: 175.7949981689453px;
+    width: 50.472015380859375px;
+    height: 14.2039794921875px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector098 {
+    top: 0px;
+    left: 22.279022216796875px;
+    width: 5px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector099 {
+    top: 2.430999755859375px;
+    left: 26.2919921875px;
+    width: 5px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-group31 {
+    top: 10.3079833984375px;
+    left: 0px;
+    width: 50.472015380859375px;
+    height: 3.89599609375px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector100 {
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-group32 {
+    top: 237.5960693359375px;
+    left: 78.83799743652344px;
+    width: 4.89300537109375px;
+    height: 7.0260009765625px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector101 {
+    top: 0px;
+    left: 0px;
+    width: 5px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector102 {
+    top: 4.6820068359375px;
+    left: 0.29901123046875px;
+    width: 5px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector103 {
+    top: 223.55743408203125px;
+    left: 56.62400817871094px;
+    width: 32px;
+    height: 37px;
+    position: absolute;
+  }
+  .home-vector104 {
+    top: 49.702842712402344px;
+    left: 134.29701232910156px;
+    width: 68px;
+    height: 21px;
+    position: absolute;
+  }
+  .home-vector105 {
+    top: 45.39729309082031px;
+    left: 116.26399230957031px;
+    width: 66px;
+    height: 27px;
+    position: absolute;
+  }
+  .home-vector106 {
+    top: 131.45208740234375px;
+    left: 74.24501037597656px;
+    width: 66px;
+    height: 101px;
+    position: absolute;
+  }
+  .home-vector107 {
+    top: 110.22667694091797px;
+    left: 104.75126647949219px;
+    width: 100px;
+    height: 92px;
+    position: absolute;
+  }
+  .home-vector108 {
+    top: 110.23706817626953px;
+    left: 112.17530822753906px;
+    width: 75px;
+    height: 90px;
+    position: absolute;
+  }
+  .home-vector109 {
+    top: 110.2270736694336px;
+    left: 116.26399230957031px;
+    width: 12px;
+    height: 14px;
+    position: absolute;
+  }
+  .home-vector110 {
+    top: 130.69607543945312px;
+    left: 180.8629913330078px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector111 {
+    top: 136.08908081054688px;
+    left: 180.7949981689453px;
+    width: 10px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector112 {
+    top: 137.6370849609375px;
+    left: 76.93101501464844px;
+    width: 51px;
+    height: 85px;
+    position: absolute;
+  }
+  .home-vector113 {
+    top: 165.05206298828125px;
+    left: 114.42500305175781px;
+    width: 7px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector114 {
+    top: 166.30007934570312px;
+    left: 114.42500305175781px;
+    width: 6px;
+    height: 5px;
+    position: absolute;
+  }
+  .home-vector115 {
+    top: 56.852073669433594px;
+    left: 192.5650177001953px;
+    width: 2px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector116 {
+    top: 57.96106719970703px;
+    left: 185.9300079345703px;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector117 {
+    top: 60.655067443847656px;
+    left: 188.23301696777344px;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector118 {
+    top: 47.844078063964844px;
+    left: 46.56282043457031px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+  }
+  .home-vector119 {
+    top: 41.95159912109375px;
+    left: 50.86701965332031px;
+    width: 89px;
+    height: 68px;
+    position: absolute;
+  }
+  .home-vector120 {
+    top: 34.14607238769531px;
+    left: 109.69300842285156px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+  }
+  .home-vector121 {
+    top: 34.14607238769531px;
+    left: 109.69300842285156px;
+    width: 13px;
+    height: 6px;
+    position: absolute;
+  }
+  .home-vector122 {
+    top: 4.9490966796875px;
+    left: 103.50044250488281px;
+    width: 26px;
+    height: 33px;
+    position: absolute;
+  }
+  .home-group33 {
+    top: 14.904853820800781px;
+    left: 113.92799377441406px;
+    width: 15.453648567199707px;
+    height: 14.93937873840332px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector123 {
+    top: 4.362220764160156px;
+    left: 6.54901123046875px;
+    width: 5px;
+    height: 7px;
+    position: absolute;
+  }
+  .home-vector124 {
+    top: 8.854766845703125px;
+    left: 0.56890869140625px;
+    width: 3px;
+    height: 3px;
+    opacity: 0.50;
+    position: absolute;
+  }
+  .home-vector125 {
+    top: 8.137298583984375px;
+    left: 12.1317138671875px;
+    width: 3px;
+    height: 3px;
+    opacity: 0.50;
+    position: absolute;
+  }
+  .home-vector126 {
+    top: 13.524223327636719px;
+    left: 5.464996337890625px;
+    width: 5px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector127 {
+    top: 0px;
+    left: 10.165008544921875px;
+    width: 3px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector128 {
+    top: 0.8882217407226562px;
+    left: 0px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector129 {
+    top: 4.385223388671875px;
+    left: 2.357025146484375px;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector130 {
+    top: 3.1662216186523438px;
+    left: 9.896026611328125px;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector131 {
+    top: 0px;
+    left: 97.37474060058594px;
+    width: 37px;
+    height: 26px;
+    position: absolute;
+  }
+  .home-group34 {
+    top: 20.529708862304688px;
+    left: 101.64634704589844px;
+    width: 8.448663711547852px;
+    height: 9.799278259277344px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector132 {
+    top: 0px;
+    left: 0px;
+    width: 8px;
+    height: 10px;
+    position: absolute;
+  }
+  .home-vector133 {
+    top: 2.1533660888671875px;
+    left: 2.488494873046875px;
+    width: 2px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector134 {
+    top: 2.9603652954101562px;
+    left: 3.03765869140625px;
+    width: 3px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector135 {
+    top: 45.417076110839844px;
+    left: 124.12901306152344px;
+    width: 16px;
+    height: 65px;
+    position: absolute;
+  }
+  .home-vector136 {
+    top: 62.047080993652344px;
+    left: 93.22300720214844px;
+    width: 8px;
+    height: 31px;
+    position: absolute;
+  }
+  .home-vector137 {
+    top: 41.962074279785156px;
+    left: 105.64701843261719px;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+  }
+  .home-vector138 {
+    top: 47.84307098388672px;
+    left: 79.78001403808594px;
+    width: 44px;
+    height: 16px;
+    position: absolute;
+  }
+  .home-vector139 {
+    top: 73.17906951904297px;
+    left: 53.47300720214844px;
+    width: 9px;
+    height: 7px;
+    position: absolute;
+  }
+  .home-vector140 {
+    top: 75.51888275146484px;
+    left: 52.20552062988281px;
+    width: 1px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector141 {
+    top: 57.07007598876953px;
+    left: 175.6540069580078px;
+    width: 1px;
+    height: 13px;
+    position: absolute;
+  }
+  .home-group35 {
+    top: 0px;
+    left: 504.99127197265625px;
+    width: 135.90089416503906px;
+    height: 191.2814178466797px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector142 {
+    top: 17.664443969726562px;
+    left: 34.3421630859375px;
+    width: 89px;
+    height: 82px;
+    position: absolute;
+  }
+  .home-vector143 {
+    top: 67.66100311279297px;
+    left: 37.65130615234375px;
+    width: 22px;
+    height: 57px;
+    position: absolute;
+  }
+  .home-group36 {
+    top: 44.71879577636719px;
+    left: 0px;
+    width: 47.22159194946289px;
+    height: 79.0235595703125px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector144 {
+    top: 19.90520477294922px;
+    left: 25.6898193359375px;
+    width: 22px;
+    height: 59px;
+    position: absolute;
+  }
+  .home-vector145 {
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 27px;
+    position: absolute;
+  }
+  .home-vector146 {
+    top: 4.88720703125px;
+    left: 7.56573486328125px;
+    width: 25px;
+    height: 15px;
+    position: absolute;
+  }
+  .home-vector147 {
+    top: 7.190223693847656px;
+    left: 5.23193359375px;
+    width: 7px;
+    height: 12px;
+    position: absolute;
+  }
+  .home-group37 {
+    top: 0.6032028198242188px;
+    left: 8.53173828125px;
+    width: 30.800243377685547px;
+    height: 40.282997131347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group38 {
+    top: 0px;
+    left: 0px;
+    width: 30.800243377685547px;
+    height: 40.282997131347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group39 {
+    top: 17.783004760742188px;
+    left: 17.72100830078125px;
+    width: 12.14300537109375px;
+    height: 22.49999237060547px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector148 {
+    top: 0px;
+    left: 0px;
+    width: 12px;
+    height: 22px;
+    position: absolute;
+  }
+  .home-group40 {
+    top: 1.4708251953125px;
+    left: 20.97027587890625px;
+    width: 9.829967498779297px;
+    height: 16.342350006103516px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector149 {
+    top: 0px;
+    left: 0px;
+    width: 10px;
+    height: 16px;
+    position: absolute;
+  }
+  .home-group41 {
+    top: 0px;
+    left: 0px;
+    width: 26.66900634765625px;
+    height: 25.150001525878906px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector150 {
+    top: 0px;
+    left: 0px;
+    width: 27px;
+    height: 25px;
+    position: absolute;
+  }
+  .home-vector151 {
+    top: 19.906204223632812px;
+    left: 25.638671875px;
+    width: 11px;
+    height: 9px;
+    position: absolute;
+  }
+  .home-vector152 {
+    top: 21.096206665039062px;
+    left: 21.78497314453125px;
+    width: 10px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector153 {
+    top: 24.505203247070312px;
+    left: 21.95574951171875px;
+    width: 10px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector154 {
+    top: 27.24620819091797px;
+    left: 21.89874267578125px;
+    width: 10px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector155 {
+    top: 29.8822021484375px;
+    left: 22.14923095703125px;
+    width: 9px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector156 {
+    top: 21.31720733642578px;
+    left: 21.78155517578125px;
+    width: 10px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector157 {
+    top: 26.571205139160156px;
+    left: 21.954833984375px;
+    width: 10px;
+    height: 6px;
+    position: absolute;
+  }
+  .home-vector158 {
+    top: 29.35820770263672px;
+    left: 21.8995361328125px;
+    width: 10px;
+    height: 6px;
+    position: absolute;
+  }
+  .home-vector159 {
+    top: 20.018203735351562px;
+    left: 25.63824462890625px;
+    width: 11px;
+    height: 9px;
+    position: absolute;
+  }
+  .home-vector160 {
+    top: 32.30720520019531px;
+    left: 22.149169921875px;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+  }
+  .home-group42 {
+    top: 135.8209991455078px;
+    left: 31.54071044921875px;
+    width: 57.1080322265625px;
+    height: 55.46042251586914px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group43 {
+    top: 21.908004760742188px;
+    left: 32.6600341796875px;
+    width: 22.65997314453125px;
+    height: 31.647531509399414px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector161 {
+    top: 0px;
+    left: 0px;
+    width: 23px;
+    height: 32px;
+    position: absolute;
+  }
+  .home-group44 {
+    top: 0px;
+    left: 0px;
+    width: 43.50701904296875px;
+    height: 30.81403923034668px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector162 {
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 29px;
+    position: absolute;
+  }
+  .home-vector163 {
+    top: 21.391006469726562px;
+    left: 34.114990234375px;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+  }
+  .home-vector164 {
+    top: 26.714004516601562px;
+    left: 32.07403564453125px;
+    width: 25px;
+    height: 29px;
+    position: absolute;
+  }
+  .home-vector165 {
+    top: 21.779998779296875px;
+    left: 34.36602783203125px;
+    width: 7px;
+    height: 9px;
+    position: absolute;
+  }
+  .home-vector166 {
+    top: 128.00843811035156px;
+    left: 25.4954833984375px;
+    width: 75px;
+    height: 41px;
+    position: absolute;
+  }
+  .home-vector167 {
+    top: 135.27061462402344px;
+    left: 35.86993408203125px;
+    width: 42px;
+    height: 27px;
+    position: absolute;
+  }
+  .home-vector168 {
+    top: 144.63499450683594px;
+    left: 53.30572509765625px;
+    width: 17px;
+    height: 14px;
+    position: absolute;
+  }
+  .home-vector169 {
+    top: 61.775779724121094px;
+    left: 51.4942626953125px;
+    width: 78px;
+    height: 90px;
+    position: absolute;
+  }
+  .home-vector170 {
+    top: 80.09500122070312px;
+    left: 99.91851806640625px;
+    width: 13px;
+    height: 34px;
+    position: absolute;
+  }
+  .home-vector171 {
+    top: 67.66100311279297px;
+    left: 51.4932861328125px;
+    width: 20px;
+    height: 70px;
+    position: absolute;
+  }
+  .home-vector172 {
+    top: 100.1090087890625px;
+    left: 77.58575439453125px;
+    width: 13px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector173 {
+    top: 73.21000671386719px;
+    left: 63.73272705078125px;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector174 {
+    top: 77.66761779785156px;
+    left: 64.38470458984375px;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-group45 {
+    top: 111.447998046875px;
+    left: 22.4656982421875px;
+    width: 36.16900634765625px;
+    height: 58.02301025390625px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group46 {
+    top: 40.80650329589844px;
+    left: 1.62701416015625px;
+    width: 34.265872955322266px;
+    height: 15.360508918762207px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector175 {
+    top: 0px;
+    left: 0px;
+    width: 34px;
+    height: 15px;
+    position: absolute;
+  }
+  .home-group47 {
+    top: 0px;
+    left: 21.99505615234375px;
+    width: 13.23797607421875px;
+    height: 44.620853424072266px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector176 {
+    top: 0px;
+    left: 0.125px;
+    width: 13px;
+    height: 40px;
+    position: absolute;
+  }
+  .home-vector177 {
+    top: 39.18699645996094px;
+    left: 0px;
+    width: 11px;
+    height: 5px;
+    position: absolute;
+  }
+  .home-vector178 {
+    top: 50.02900695800781px;
+    left: 0px;
+    width: 36px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector179 {
+    top: 39.78300476074219px;
+    left: 22.1490478515625px;
+    width: 11px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector180 {
+    top: 86.15150451660156px;
+    left: 43.30889892578125px;
+    width: 87px;
+    height: 83px;
+    position: absolute;
+  }
+  .home-vector181 {
+    top: 100.33274841308594px;
+    left: 52.60772705078125px;
+    width: 70px;
+    height: 60px;
+    position: absolute;
+  }
+  .home-group48 {
+    top: 40.40899658203125px;
+    left: 45.326904296875px;
+    width: 4.233908653259277px;
+    height: 9.17607593536377px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector182 {
+    top: 0px;
+    left: 0px;
+    width: 4px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector183 {
+    top: 1.47857666015625px;
+    left: 0.8258056640625px;
+    width: 2px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector184 {
+    top: 1.7530059814453125px;
+    left: 1.92205810546875px;
+    width: 1px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector185 {
+    top: 5.977104187011719px;
+    left: 1.0347900390625px;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector186 {
+    top: 29.801002502441406px;
+    left: 50.12078857421875px;
+    width: 26px;
+    height: 31px;
+    position: absolute;
+  }
+  .home-group49 {
+    top: 38.121376037597656px;
+    left: 76.86273193359375px;
+    width: 4.9847731590271px;
+    height: 9.58163070678711px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group50 {
+    top: 0px;
+    left: 0px;
+    width: 4.9847731590271px;
+    height: 9.58163070678711px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector187 {
+    top: 0px;
+    left: 0px;
+    width: 5px;
+    height: 10px;
+    position: absolute;
+  }
+  .home-vector188 {
+    top: 1.83380126953125px;
+    left: 1.385009765625px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector189 {
+    top: 2.213623046875px;
+    left: 1.6820068359375px;
+    width: 1px;
+    height: 4px;
+    position: absolute;
+  }
+  .home-vector190 {
+    top: 44.877044677734375px;
+    left: 77.61273193359375px;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector191 {
+    top: 56.78400421142578px;
+    left: 60.44696044921875px;
+    width: 13px;
+    height: 15px;
+    position: absolute;
+  }
+  .home-vector192 {
+    top: 56.78400421142578px;
+    left: 60.625732421875px;
+    width: 11px;
+    height: 7px;
+    position: absolute;
+  }
+  .home-vector193 {
+    top: 56.62300109863281px;
+    left: 80.52783203125px;
+    width: 51px;
+    height: 25px;
+    position: absolute;
+  }
+  .home-vector194 {
+    top: 0px;
+    left: 117.9136962890625px;
+    width: 18px;
+    height: 66px;
+    position: absolute;
+  }
+  .home-vector195 {
+    top: 3.6520004272460938px;
+    left: 128.8387451171875px;
+    width: 2px;
+    height: 10px;
+    position: absolute;
+  }
+  .home-vector196 {
+    top: 12.619369506835938px;
+    left: 125.230712890625px;
+    width: 7px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector197 {
+    top: 16.89200210571289px;
+    left: 122.53375244140625px;
+    width: 4px;
+    height: 6px;
+    position: absolute;
+  }
+  .home-group51 {
+    top: 38.12000274658203px;
+    left: 52.60675048828125px;
+    width: 15.67999267578125px;
+    height: 15.643224716186523px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-group52 {
+    top: 0px;
+    left: 0px;
+    width: 15.67999267578125px;
+    height: 15.643224716186523px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .home-vector198 {
+    top: 0.49399566650390625px;
+    left: 12.8399658203125px;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector199 {
+    top: 0px;
+    left: 2.115966796875px;
+    width: 2px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector200 {
+    top: 3.8239974975585938px;
+    left: 4.484619140625px;
+    width: 4px;
+    height: 8px;
+    position: absolute;
+  }
+  .home-vector201 {
+    top: 12.556236267089844px;
+    left: 6.72320556640625px;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+  }
+  .home-vector202 {
+    top: 9.164741516113281px;
+    left: 11.54058837890625px;
+    width: 3px;
+    height: 3px;
+    opacity: 0.50;
+    position: absolute;
+  }
+  .home-vector203 {
+    top: 9.666732788085938px;
+    left: 0px;
+    width: 3px;
+    height: 3px;
+    opacity: 0.50;
+    position: absolute;
+  }
+  .home-vector204 {
+    top: 12.58599853515625px;
+    left: 5.95794677734375px;
+    width: 5px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector205 {
+    top: 5.28997802734375px;
+    left: 10.76995849609375px;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector206 {
+    top: 6.381996154785156px;
+    left: 12.0419921875px;
+    width: 3px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector207 {
+    top: 5.450996398925781px;
+    left: 12.09100341796875px;
+    width: 3px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector208 {
+    top: 3.9449996948242188px;
+    left: 0.8389892578125px;
+    width: 3px;
+    height: 1px;
+    position: absolute;
+  }
+  .home-vector209 {
+    top: 2.8499984741210938px;
+    left: 1.45697021484375px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector210 {
+    top: 4.088981628417969px;
+    left: 2.7449951171875px;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+  }
+  .home-vector211 {
+    top: 105.25999450683594px;
+    left: 58.63470458984375px;
+    width: 3px;
+    height: 13px;
+    position: absolute;
+  }
