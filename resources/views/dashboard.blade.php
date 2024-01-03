@@ -1,109 +1,120 @@
 <x-app-layout>
-    {{-- <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot> --}}
+
     <style>
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-    }
-    .grid-child-one{
+        body{
+            overflow: hidden;
+        }
+        .grid-child-one, .grid-child-two {
 
-    }
-    .grid-child-one img{
-        margin-left: 15%
-} 
-    .grid-child-two{
-        background-color:#EDF5FF;
-        height: 100%;
-        
-  
-    }
-
-
-
-    .about-text{
-        margin-top: 5.2%;
-
-        color: rgba(0, 0, 0, 0.91);
-        font-family: Roboto;
-        padding-left:10%; 
-        padding-right:10%; 
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-    }
-    .about-text-2{
-        margin-top: 25%;
-
-        color: rgba(0, 0, 0, 0.91);
-        font-family: Roboto;
-        padding-left:10%; 
-        padding-right:10%; 
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-    }
-    .btn{
-       
-        padding: 2%;
-        padding-left:5%;
-        padding-right:5%;
-        border-radius: 38px;
-background: #407BFF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    }
-.btn-text{
-    color: #FFF;
-font-family: Roboto;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.footer-1{
-    background-color: black;
-    color: white;
-    padding: 1%;
-    display: flex;
-  justify-content: center;
-}
-a.navb{
-    color: #407bff;
-    font-size: 20px;
-
-}
-a.navb:hover{
-    color: #000000;
-    font-size: 20px;
-
-}
-.navb-active{
-    color: #000000;
-    font-size: 20px;
+        }
+    
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(+80px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
     
 
-}
-.navb,form{
-    text-align: center;
-    padding-top: 1%;
-    padding-left:1.5% ;
-    padding-right:4.5%;
-}
-.navb-active{
-    color: #407bff;
-    text-align: center;
-    padding-top: 2%;
-    padding-left:1.5% ;
-    padding-right:4.5%;
-}
+    
+        .grid-child-one img {
+            margin-left: 15%;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+    
+        .grid-child-two {
+            background-color: #EDF5FF;
+            height: 100%;
+        }
+    
+        .about-text, .about-text-2 {
+            margin-top: 3.2%;
+            color: rgba(0, 0, 0, 0.91);
+            font-family: Roboto;
+            padding-left: 10%;
+            padding-right: 10%;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+    
+        .about-text-2 {
+            margin-top: 25%;
+        }
+    
+        .btn {
+            padding: 2%;
+            padding-left: 5%;
+            padding-right: 5%;
+            border-radius: 38px;
+            background: #407BFF;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+    
+        .btn-text {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    
+        .footer-1 {
+            background-color: black;
+            color: white;
+            padding: 1%;
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+        }
+    
+        a.navb {
+            color: #407bff;
+            font-size: 20px;
+        }
+    
+        a.navb:hover {
+            color: #000000;
+            font-size: 20px;
+        }
+    
+        .navb-active {
+            color: #000000;
+            font-size: 20px;
+        }
+    
+        .navb,
+        form {
+            text-align: center;
+            padding-top: 1%;
+            padding-left: 1.5%;
+            padding-right: 4.5%;
+        }
+    
+        .navb-active {
+            color: #407bff;
+            text-align: center;
+            padding-top: 2%;
+            padding-left: 1.5%;
+            padding-right: 4.5%;
+        }
     </style>
+    
     <div class="py-3">
         <div class="">
             <div class="">
@@ -111,7 +122,7 @@ a.navb:hover{
 
                     <div class="grid-child-one">
                         <img src="./assets/logo.svg"/>
-                        <div class="about-text">
+                        <div class="about-text"><br>
                             <b>Welcome {{ Auth::user()->name }} !! </b><br><br>
                             <p>
                                 Confused what to do in life? Why to worry?
