@@ -90,9 +90,9 @@ a.navb:hover{
     
 
 }
-.navb{
+.navb,form{
     text-align: center;
-    padding-top: 2%;
+    padding-top: 1%;
     padding-left:1.5% ;
     padding-right:4.5%;
 }
@@ -127,21 +127,19 @@ a.navb:hover{
                     <div class="grid-child-two">
                         
                         <div class="navb">
-                        <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                            {{ __('Home') }}
-                        </x-nav-link>
-                        <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                            {{ __('Take Test') }}
-                        </x-nav-link>
-                        <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                            {{ __('Settings') }}
-                        </x-nav-link>
-                        <x-nav-link :href="route('profile.edit')">
-                            {{ __('Profile') }}
-                        </x-nav-link>
-                        <form method="POST" action="{{ route('logout') }}">
-                            @csrf
 
+                        <form method="POST" action="{{ route('logout') }}" >
+                            @csrf
+                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                                {{ __('Home') }}
+                            </x-nav-link>
+                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                                {{ __('Take Test') }}
+                            </x-nav-link>
+    
+                            <x-nav-link :href="route('profile.edit')">
+                                {{ __('Profile') }}
+                            </x-nav-link>
                             <x-nav-link :href="route('logout')"
                                     onclick="event.preventDefault();
                                                 this.closest('form').submit();">
