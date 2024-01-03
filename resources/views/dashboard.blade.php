@@ -1,9 +1,7 @@
 <x-app-layout>
 
     <style>
-        body{
-            overflow: hidden;
-        }
+
         .grid-child-one, .grid-child-two {
 
         }
@@ -153,8 +151,11 @@
                             </x-nav-link>
                             <x-nav-link :href="route('logout')"
                                     onclick="event.preventDefault();
+                            
                                                 this.closest('form').submit();">
+                                                
                                 {{ __('Log Out') }}
+                                    
                             </x-nav-link>
                         </form>
                         </div>

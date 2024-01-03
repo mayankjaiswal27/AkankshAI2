@@ -1,71 +1,187 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<x-app-layout>
 
-        <title>Laravel</title>
+  <style>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-        @vite(['resources/css/welcome.css'])
-    </head>
-    <body class="antialiased">
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-            @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
-                    @auth
-                        {{-- <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
-                    @else
-                        <a href="{{ route('login') }}"><span class="home-text21"><span>Login</span></span></a>
+      .grid-child-one, .grid-child-two {
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
-                        @endif --}}
-                    @endauth
-                </div>
-            @endif
+      }
+  
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+              transform: translateY(+80px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+  
+      .grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 20px;
+      }
+  
 
-            <div>
-                <link href="./home.css" rel="stylesheet" />
-                <div class="home-container">
-                  <div class="home-desktop2">
-                    <div>
-                      <div>
-                        <img
-                          src="./assets/logo.svg"
-                          alt="Vector16013"
-                          {{-- class="home-vector16" --}}
-                        />
-                        
+  
+      .grid-child-one img {
+          margin-left: 15%;
+          opacity: 0;
+          animation: fadeIn 1.5s ease-in-out forwards;
+      }
+  
+      .grid-child-two {
+          background-color: #EDF5FF;
+          height: 100%;
+      }
+  
+      .about-text, .about-text-2 {
+          margin-top: 3.2%;
+          color: rgba(0, 0, 0, 0.91);
+          font-family: Roboto;
+          padding-left: 10%;
+          padding-right: 10%;
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          opacity: 0;
+          animation: fadeIn 1.5s ease-in-out forwards;
+      }
+  
+      .about-text-2 {
+          margin-top: 25%;
+      }
+  
+      .btn {
+          padding: 2%;
+          padding-left: 5%;
+          padding-right: 5%;
+          border-radius: 38px;
+          background: #407BFF;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+  
+      .btn-text {
+          color: #FFF;
+          font-family: Roboto;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+      }
+  
+      .footer-1 {
+          background-color: black;
+          color: white;
+          padding: 1%;
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+      }
+  
+      a.navb {
+          color: #407bff;
+          font-size: 20px;
+          
+      }
+      a{
+          color: #407bff;
+          font-size: 20px;
+          text-align: right;
+          padding-top: 1%;
+          padding-left: 1.5%;
+          padding-right: 4.5%;
+      }
+  
+      a.navb:hover {
+          color: #000000;
+          font-size: 20px;
+      }
+  
+      .navb-active {
+          color: #000000;
+          font-size: 20px;
+      }
+  
+      .navb,
+      form{
+          text-align: right;
+          padding-top: 1%;
+          padding-left: 1.5%;
+          padding-right: 4.5%;
+      }
+  
+      .navb-active {
+          color: #407bff;
+          text-align: center;
+          padding-top: 2%;
+          padding-left: 1.5%;
+          padding-right: 4.5%;
+      }
+  </style>
+  
+  <div class="py-3">
+      <div class="">
+          <div class="">
+              <div class="grid-container">
+
+                  <div class="grid-child-one">
+                      <img src="./assets/logo.svg"/>
+                      <div class="about-text"><br>
+                          <b>Welcome to AkankshAI !! </b><br><br>
+                          <p>
+                              Confused what to do in life? Why to worry?
+                              Take our tests to find out, what career
+                              suits the most to your personality .
+                              Are you ready?</p><br><br>
+                              <a href="{{route('login')}}"><button class="btn"><span class="btn-text">Take Test</span></button></a>
+                              <img src="./assets/dashboardimg.svg"/>
                       </div>
                       
-                    </div>
-                    <span class="home-text07">
-                      <span>Welcome back! Please login to your account.</span>
-                    </span>
-                    <span class="home-text09"><span>Akanshao se safalta tak</span></span>
-                    <input type="text" class="home-text1" placeholder="abc@digital.com"/>
-                    <input type="password" class="home-text13" placeholder="**********"/>
-                    <span class="home-text15"><span>Remember Me</span></span>
-                    <span class="home-text17"><span>Or login with</span></span>
-                    <span class="home-text19"><span>Google</span></span>
-                    <a href="{{ route('login') }}"><span class="home-text21"><span>Login</span></span></a>
-                    <a href="{{ route('register') }}"><span class="home-text23"><span>Sign Up</span></span></a>
-                    <span class="home-text25"><span>Forgot Password?</span></span>
-                    <div class="home-emaisection">
-                      
-                      
-                    </div>
-                    
-                    <div class="home-objects">
-                      <img src="./assets/OBJECTS.svg">
-                      </div>
-                    </div>
                   </div>
-                </div>
-              </div>
               
-    </body>
-</html>
+                  <div class="grid-child-two">
+                      
+                      <div class="navb">
+
+                        
+                            @if (Route::has('login'))
+                                <div class="navb">
+                                    @auth
+                                        <a href="{{ url('/dashboard') }}" class="">Dashboard</a>
+                                    @else
+                                        <a href="{{ route('login') }}" class="">Log in</a>
+                
+                                        @if (Route::has('register'))
+                                            <a href="{{ route('register') }}" class="">Register</a>
+                                        @endif
+                                    @endauth
+                                </div>
+                            @endif
+                      </div>
+                  <div class="about-text-2">
+                      <b>Why to take tests?</b><br><br>
+                      <p>
+                          <b>AkankshAI</b> takes your personality and aptitude
+                          tests, to find what type of person you are.
+                          
+                          AkankshAI takes into account the choice of 
+                          both the students and parents.
+                          
+                          We provide the detailed analysis and all
+                          suitable career paths for the user, along with
+                          future opportunities, admission processes, top
+                          institutions and also provide assistance from
+                          government certified counselors.</p>
+                  </div>
+                  </div>
+                
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-1"><footer>Made with ❤️ by Team Smart Under Criticism</footer></div>
+</x-app-layout>
+
