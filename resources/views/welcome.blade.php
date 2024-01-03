@@ -22,9 +22,6 @@
           grid-template-columns: 1fr 1fr;
           grid-gap: 20px;
       }
-  
-
-  
       .grid-child-one img {
           margin-left: 15%;
           opacity: 0;
