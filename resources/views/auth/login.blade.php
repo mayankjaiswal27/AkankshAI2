@@ -209,7 +209,7 @@
                 
                     <div class="grid-child-two">
                          <div class="navb">
-                            <a href="{{ url('/welcome') }}" class="">Home</a>
+                            <a href="{{ url('/dashboard') }}" class="">Home</a>
                          </div>
                         <img src="./assets/OBJECTS.svg"/>
                    
