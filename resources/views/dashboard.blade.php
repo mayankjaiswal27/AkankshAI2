@@ -111,6 +111,9 @@
             padding-left: 1.5%;
             padding-right: 4.5%;
         }
+        .anc-foot{
+            text-decoration: underline;
+        }
     </style>
     
     <div class="py-3">
@@ -180,5 +183,5 @@
             </div>
         </div>
     </div>
-    <div class="footer-1"><footer>Made with ❤️ by Team Smart Under Criticism</footer></div>
+    <div class="footer-1"><footer>Made with ❤️ by <a href="{{ route('meet') }}" class="anc-foot">Team Smart Under Criticism</a></footer></div>
 </x-app-layout>
