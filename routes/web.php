@@ -25,12 +25,6 @@ Route::get('/meet', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
-Route::get('/student', function () {
-    return view('student');
-})->name('student');
-Route::get('/counselor', function () {
-    return view('counselor');
-})->name('counselor');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
