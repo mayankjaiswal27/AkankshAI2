@@ -125,7 +125,7 @@
             padding-right: 4.5%;
         }
 
-        .navb-active {
+        .navb-active { 
             color: #407bff;
             text-align: center;
             padding-top: 2%;
