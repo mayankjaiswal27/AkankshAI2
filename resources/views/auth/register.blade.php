@@ -1,30 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AkankshAI</title>
     <style>
         /* Optional: Some basic styling for demonstration purposes */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
         .py {
-            text-align: center;
-            margin-top: 0px;
+            text-align: left; /* Adjusted to left align */
+            margin-top: 10px; /* Adjusted margin-top */
+            padding-left: 5%; /* Adjusted padding-left */
         }
 
         .outer-div {
             text-align: center;
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            height: 73vh;
+            height: auto;
             background: #EDF5FF;
             border-radius: 18px;
             box-sizing: border-box;
-            width: 62%;
+            width: 80%;
             margin: 3% auto;
-            padding-left: 10%;
-            padding-right: 10%;
+            padding: 5%;
         }
 
         .inner-div {
-            width: 35%;
+            width: 45%;
             background-color: #ffffff;
             height: 72%;
             margin: 10px;
@@ -45,6 +54,8 @@
             text-align: center;
             justify-content: center;
             font-size: 20px;
+            width: 100%;
+            margin-top: 10px;
         }
 
         .anc-foot {
@@ -64,7 +75,7 @@
 
         a.navb {
             color: #407bff;
-            font-size: 20px;   
+            font-size: 20px;
         }
 
         a {
@@ -102,9 +113,15 @@
         }
 
         img.logo {
-            text-align: left;
-            margin-right: 90%;
+            max-width: 100%;
+            margin-right: 5%;
             margin-top: -2%;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .inner-div {
+                width: 80%;
+            }
         }
     </style>
 </head>
@@ -123,12 +140,12 @@
     </div>
     <div class="py">
         <img src="./assets/logo.svg" class="logo"/>
-        <b class="signup">SIGN UP AS</b>
+        <b class="signup"><center>SIGN UP AS</center></b>
         <div class="outer-div">
             <div class="inner-div">
                 <!-- Content of the first inner div -->
                 <a href="{{ route('student') }}"><img src="./assets/student.svg" class="student"/></a><br>
-               <b> STUDENT</b>
+                <b> STUDENT</b>
             </div>
             <div class="inner-div">
                 <!-- Content of the second inner div -->

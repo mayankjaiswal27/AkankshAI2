@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\QuizController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/meet', function () {
     return view('meet');
-})->middleware(['auth', 'verified'])->name('meet');
+})->name('meet');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -37,5 +37,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+Route::get('/quiz', [QuizController::class, 'index'])->name('quiz.index');
+Route::post('/submit', [QuizController::class, 'submit'])->name('quiz.submit');
 
 require __DIR__.'/auth.php';

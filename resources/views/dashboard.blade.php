@@ -130,7 +130,7 @@
                                 Take our tests to find out, what career
                                 suits the most to your personality .
                                 Are you ready?</p><br><br>
-                                <button class="btn"><span class="btn-text">Take Test</span></button> 
+                                <a href="{{route('quiz.index')}}"><button class="btn"><span class="btn-text">Take Test</span></button></a>
                                 <img src="./assets/dashboardimg.svg"/>
                         </div>
                         
@@ -145,7 +145,7 @@
                             <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                                 {{ __('Home') }}
                             </x-nav-link>
-                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                            <x-nav-link :href="route('quiz.index')" :active="request()->routeIs('dashboard')">
                                 {{ __('Take Test') }}
                             </x-nav-link>
     

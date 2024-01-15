@@ -120,7 +120,10 @@
   </style>
   
   <div class="py-3">
+
       <div class="">
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/234c02a7-0512-43be-80c3-996ede7fb743/webchat/config.js" defer></script>
           <div class="">
               <div class="grid-container">
 
