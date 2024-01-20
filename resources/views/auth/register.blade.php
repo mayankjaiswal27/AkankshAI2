@@ -144,12 +144,12 @@
         <div class="outer-div">
             <div class="inner-div">
                 <!-- Content of the first inner div -->
-                <a href="{{ route('student') }}"><img src="./assets/student.svg" class="student"/></a><br>
+                <a href="{{ route('student.register') }}"><img src="./assets/student.svg" class="student"/></a><br>
                 <b> STUDENT</b>
             </div>
             <div class="inner-div">
                 <!-- Content of the second inner div -->
-                <a href="{{ route('counselor') }}"><img src="./assets/Counselor.svg" class="counselor"/></a><br>
+                <a href="{{ route('counselor.register') }}"><img src="./assets/Counselor.svg" class="counselor"/></a><br>
                 <b>COUNSELOR</b>
             </div>
         </div>

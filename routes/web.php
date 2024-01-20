@@ -2,7 +2,8 @@
 use App\Http\Controllers\QuizController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\StudentController;
+use App\Http\Controllers\CounselorController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,5 +40,9 @@ Route::middleware('auth')->group(function () {
 });
 Route::get('/quiz', [QuizController::class, 'index'])->name('quiz.index');
 Route::post('/submit', [QuizController::class, 'submit'])->name('quiz.submit');
+Route::get('/student/register', [StudentController::class, 'create'])->name('student.register');
+Route::post('/student/register', [StudentController::class, 'store']);
 
+Route::get('/counselor/register', [CounselorController::class, 'create'])->name('counselor.register');
+Route::post('/counselor/register', [CounselorController::class, 'store']);
 require __DIR__.'/auth.php';
