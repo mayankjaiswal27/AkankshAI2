@@ -4,6 +4,8 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\CounselorController;
+use App\Http\Controllers\StudentLoginController;
+use App\Http\Controllers\CounselorLoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,4 +47,19 @@ Route::post('/student/register', [StudentController::class, 'store']);
 
 Route::get('/counselor/register', [CounselorController::class, 'create'])->name('counselor.register');
 Route::post('/counselor/register', [CounselorController::class, 'store']);
+
+Route::get('/student/login', [StudentLoginController::class, 'showLoginForm'])->name('student.login');
+Route::post('/student/login', [StudentLoginController::class, 'login']);
+Route::post('/student/logout', [StudentLoginController::class, 'logout'])->name('student.logout');
+
+// Counselor login routes
+Route::get('/counselor/login', [CounselorLoginController::class, 'showLoginForm'])->name('counselor.login');
+Route::post('/counselor/login', [CounselorLoginController::class, 'login']);
+Route::post('/counselor/logout', [CounselorLoginController::class, 'logout'])->name('counselor.logout');
+Route::get('/student/dashboard', function () {
+    return view('student.dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/counselor/dashboard', function () {
+    return view('counselor.dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 require __DIR__.'/auth.php';
