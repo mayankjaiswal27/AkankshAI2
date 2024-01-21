@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Slider |Dev Mode</title>
+    <title>Team</title>
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
@@ -44,13 +44,13 @@
 
       <div class="card swiper-slide">
         <div class="card__image">
-          <img src="../assets/BG.svg"alt="card image">
+          <img src="../assets/MJ.png"alt="card image">
         </div>
 
         <div class="card__content">
           <span class="card__title">Mayank Jaiswal</span>
-          <span class="card__name">Frontend, Backend and AI developer</span>
-          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <span class="card__name">Team Lead, Full Stack and AI developer</span>
+          <p class="card__text"> Expert in collaborative solutions, merging Full Stack and AI for success.</p>
           <button class="card__btn">View More</button>
         </div>
       </div>
@@ -62,7 +62,7 @@
 
         <div class="card__content">
           <span class="card__title">Kshitij Kashyap</span>
-          <span class="card__name">Frontend Developer and Designer</span>
+          <span class="card__name">Content Lead, Frontend Developer and Designer</span>
           <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
           <button class="card__btn">View More</button>
         </div>
@@ -86,7 +86,7 @@
 
         <div class="card__content">
           <span class="card__title">Khushi Sonkusare</span>
-          <span class="card__name">Frontend Developer and Designer</span>
+          <span class="card__name">Design Lead, Frontend Developer and Designer</span>
           <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
           <button class="card__btn">View More</button>
         </div>
@@ -130,7 +130,7 @@
     el: ".swiper-pagination",
   },
   autoplay: {
-    delay: 3000, // Set the autoplay delay in milliseconds (3 seconds in this example)
+    delay: 3500, // Set the autoplay delay in milliseconds (3 seconds in this example)
     disableOnInteraction: false, // Set to true if you want to disable autoplay when the user interacts with the swiper
   },
 });
