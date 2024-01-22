@@ -86,7 +86,7 @@
 
         <div class="card__content">
           <span class="card__title">Khushi Sonkusare</span>
-          <span class="card__name">Design Lead, Frontend Developer and Designer</span>
+          <span class="card__name">Design Lead and Frontend Developer </span>
           <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
           <button class="card__btn">View More</button>
         </div>
