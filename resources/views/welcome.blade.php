@@ -134,7 +134,7 @@
                           <p>
                               Confused what to do in life? Why to worry?
                               Take our tests to find out, what career
-                              suits the most to your personality .
+                              suits the most to your personality.
                               Are you ready?</p><br><br>
                               <a href="{{route('login')}}"><button class="btn"><span class="btn-text">Take Test</span></button></a>
                               <img src="./assets/dashboardimg.svg"/>

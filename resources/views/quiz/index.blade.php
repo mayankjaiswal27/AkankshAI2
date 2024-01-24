@@ -89,6 +89,7 @@
             text-align: end;
             margin-top: -15%;
         }
+        
     </style>
 </head>
 
@@ -113,7 +114,7 @@
                         <div class=options>
                             @foreach(json_decode($question->options) as $optionKey => $option)
                                 <label>
-                                    <input type="radio" name="q{{ $key }}" value="{{ $optionKey }}">
+                                    <input type="button" name="q{{ $key }}" value="{{ $optionKey }}">
                                     {{ $option }}
                                 </label>
                             @endforeach
