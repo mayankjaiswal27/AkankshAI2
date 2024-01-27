@@ -158,7 +158,6 @@
                                             <a href="{{ route('register') }}" class="">Register</a>
                                         @endif
                                     @endauth
-                                    <a href="{{ route('meet') }}" class="">Meet the Team</a>
                                 </div>
                             @endif
                       </div>
@@ -183,6 +182,6 @@
           </div>
       </div>
   </div>
-  <footer class="footer-1">Made with ❤️ by Team Smart Under Criticism</footer>
+  <div class="footer-1"><footer>Made with ❤️ by Team Smart Under Criticism</footer></div>
 </x-app-layout>
 

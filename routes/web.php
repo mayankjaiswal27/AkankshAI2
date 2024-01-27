@@ -4,8 +4,6 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\CounselorController;
-use App\Http\Controllers\StudentLoginController;
-use App\Http\Controllers\CounselorLoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes

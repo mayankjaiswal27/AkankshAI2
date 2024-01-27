@@ -41,15 +41,7 @@ return [
             'provider' => 'users',
         ],
     ],
-    'student' => [
-        'driver' => 'session',
-        'provider' => 'students',
-    ],
 
-    'counselor' => [
-        'driver' => 'session',
-        'provider' => 'counselors',
-    ],
     /*
     |--------------------------------------------------------------------------
     | User Providers
@@ -66,9 +58,8 @@ return [
     | Supported: "database", "eloquent"
     |
     */
-    
+
     'providers' => [
-        
         'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
@@ -78,17 +69,6 @@ return [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
-        'students' => [
-            'driver' => 'eloquent',
-            'model' => App\Models\Student::class,
-        ],
-        'counselors' => [
-            'driver' => 'eloquent',
-            'model' => App\Models\Counselor::class,
-        ],
-    
-        App\Providers\StudentServiceProvider::class,
-        App\Providers\CounselorServiceProvider::class,
     ],
 
     /*
