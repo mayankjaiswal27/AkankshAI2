@@ -1,42 +1,51 @@
 <?php
 
+// app/Http/Controllers/StudentController.php
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Counselor;
-use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Auth;
 
 class CounselorController extends Controller
 {
-    public function create()
+    public function showRegistrationForm()
     {
         return view('counselor.register');
     }
 
-    public function store(Request $request)
+    public function register(Request $request)
     {
-        $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|unique:counselors,email',
-            'password' => 'required|min:6|confirmed',
-            'college' => 'required|string',
-            'graduated' => 'required|string',
-            'industry_experience' => 'required|string',
-            'career_experience' => 'required|string',
-            'degree_obtained' => 'required|string',
-        ]);
+        // Add your registration logic here
 
-        $counselor = Counselor::create([
-            'name' => $request->input('name'),
-            'email' => $request->input('email'),
-            'password' => Hash::make($request->input('password')),
-            'college' => $request->input('college'),
-            'graduated' => $request->input('graduated'),
-            'industry_experience' => $request->input('industry_experience'),
-            'career_experience' => $request->input('career_experience'),
-            'degree_obtained' => $request->input('degree_obtained'),
-        ]);
+        // For example, redirect to the student dashboard
+        return redirect()->route('counselor.dashboard');
+    }
 
-        return redirect(url('/counselor/dashboard'))->with('success', 'Counselor registered successfully!');
+    public function showLoginForm()
+    {
+        return view('counselor.login');
+    }
+
+    public function login(Request $request)
+    {
+        // Add your login logic here
+
+        // For example, redirect to the student dashboard
+        return redirect()->route('counselor.dashboard');
+    }
+
+    public function dashboard()
+    {
+        return view('counselor.dashboard');
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+
+        // Redirect to the home page after logout
+        return redirect('/');
     }
 }
+
