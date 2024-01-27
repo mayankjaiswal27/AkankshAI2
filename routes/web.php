@@ -62,4 +62,6 @@ Route::get('/student/dashboard', function () {
 Route::get('/counselor/dashboard', function () {
     return view('counselor.dashboard');
 })->name('counselor.dashboard');
+
+
 require __DIR__.'/auth.php';
