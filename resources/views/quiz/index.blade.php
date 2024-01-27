@@ -9,6 +9,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&family=Tenali+Ramakrishna&display=swap');
         body {}
+
         .navbar {
             padding-top: 1%;
             margin-left: 2.5%;
@@ -52,19 +53,13 @@
             font-family: 'Roboto', sans-serif;
         }
 
-        .options button {
-            padding: 0.75%;
-            margin-bottom: 0.8%;
-            width: 15%;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            background-color: #EDE8E3;
-            color: black;
+        .options label {
+            display: block;
+            margin-bottom: 10px;
         }
 
-        .options button:hover {
-            background-color: #6293fc;
+        .options input {
+            margin-right: 5px;
         }
 
         .submit button {
@@ -89,7 +84,6 @@
             text-align: end;
             margin-top: -15%;
         }
-        
     </style>
 </head>
 
@@ -114,11 +108,13 @@
                         <div class=options>
                             @foreach(json_decode($question->options) as $optionKey => $option)
                                 <label>
-                                    <input type="button" name="q{{ $key }}" value="{{ $optionKey }}">
+                                    <input type="radio" name="answers[{{ $key }}]" value="{{ $optionKey }}">
                                     {{ $option }}
                                 </label>
                             @endforeach
                         </div>
+                        <!-- Hidden input field to store the current question number -->
+                        <input type="hidden" name="current_question" value="{{ $key }}">
                     </div>
                 @endforeach
                 <div class="submit">
@@ -133,10 +129,26 @@
 
     <script>
         let currentQuestion = 0;
+        
         function nextQuestion() {
             const currentQuestionDiv = document.getElementById(`question${currentQuestion}`);
+            
+            // Save the selected option for the current question
+            const selectedOption = document.querySelector(`input[name="answers[${currentQuestion}]"]:checked`);
+            if (selectedOption) {
+                // Add the selected option to the form data
+                const formData = new FormData(document.getElementById('quizForm'));
+                formData.append(`answers[${currentQuestion}]`, selectedOption.value);
+                
+                // Update the form data
+                fetch("{{ route('quiz.submit') }}", {
+                    method: 'POST',
+                    body: formData
+                });
+            }
+            
             currentQuestionDiv.style.display = 'none';
-
+            
             currentQuestion++;
             if (currentQuestion < {{ count($questions) }}) {
                 const nextQuestionDiv = document.getElementById(`question${currentQuestion}`);

@@ -18,27 +18,27 @@ class QuizSeeder extends Seeder
         
         $quizzes = [
             [
-                'question' => 'What is your favourite school subject?',
+                'question' => 'First?',
                 'options' => json_encode(['Science', 'Humanities', 'Mathematics', 'Technology','Physical Education']),
                 'correct_option' => 1,
             ],
             [
-                'question' => 'What is your favourite school subject?',
+                'question' => 'Second?',
                 'options' => json_encode(['Science', 'Humanities', 'Mathematics', 'Technology','Physical Education']),
                 'correct_option' => 1,
             ],
             [
-                'question' => 'What is your favourite school subject?',
+                'question' => 'Third?',
                 'options' => json_encode(['Science', 'Humanities', 'Mathematics', 'Technology','Physical Education']),
                 'correct_option' => 1,
             ],
             [
-                'question' => 'What is your favourite school subject?',
+                'question' => 'Fourth?',
                 'options' => json_encode(['Science', 'Humanities', 'Mathematics', 'Technology','Physical Education']),
                 'correct_option' => 1,
             ],
             [
-                'question' => 'What is your favourite school subject?',
+                'question' => 'Fifth?',
                 'options' => json_encode(['Science', 'Humanities', 'Mathematics', 'Technology','Physical Education']),
                 'correct_option' => 1,
             ],
