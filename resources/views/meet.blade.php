@@ -57,40 +57,37 @@
 
       <div class="card swiper-slide">
         <div class="card__image">
-          <img src="../assets/KK.jpeg" alt="card image">
+          <img src="../assets/BG.svg" alt="card image">
         </div>
 
         <div class="card__content">
           <span class="card__title">Kshitij Kashyap</span>
-          <span class="card__name">Content Lead, AI Developer and Designer</span>
-          <p class="card__text">Crafting captivating content, AI solutions, and innovative design for experiences.
-          </p>
+          <span class="card__name">Content Lead, Frontend Developer and Designer</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
           <button class="card__btn">View More</button>
         </div>
       </div>
       <div class="card swiper-slide">
         <div class="card__image">
-          <img src="../assets/HK.png" alt="card image">
+          <img src="../assets/BG.svg" alt="card image">
         </div>
 
         <div class="card__content">
           <span class="card__title">Harshita Khare</span>
           <span class="card__name">Frontend Developer and Designer</span>
-          <p class="card__text">Crafting immersive digital experiences with innovative frontend and aesthetic design.
-          </p>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
           <button class="card__btn">View More</button>
         </div>
       </div>
       <div class="card swiper-slide">
         <div class="card__image">
-          <img src="../assets/KS.jpg" alt="card image">
+          <img src="../assets/BG.svg" alt="card image">
         </div>
 
         <div class="card__content">
           <span class="card__title">Khushi Sonkusare</span>
           <span class="card__name">Design Lead and Frontend Developer </span>
-          <p class="card__text">Design Lead crafting seamless landscapes with tech expertise.
-          </p>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
           <button class="card__btn">View More</button>
         </div>
       </div>
@@ -103,7 +100,7 @@
         <div class="card__content">
           <span class="card__title">Devesh Pardhi</span>
           <span class="card__name">Backend and AI developer</span>
-          <p class="card__text">Integrating backend and AI for seamless efficiency and innovation.</p>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
           <button class="card__btn">View More</button>
         </div>
 
@@ -133,7 +130,7 @@
     el: ".swiper-pagination",
   },
   autoplay: {
-    delay: 4000, // Set the autoplay delay in milliseconds (3 seconds in this example)
+    delay: 3500, // Set the autoplay delay in milliseconds (3 seconds in this example)
     disableOnInteraction: false, // Set to true if you want to disable autoplay when the user interacts with the swiper
   },
 });
