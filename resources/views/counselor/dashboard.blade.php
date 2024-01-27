@@ -1,13 +1,7 @@
 <div style="width: 1440px; height: 1024px; position: relative; background: white">
     <div style="width: 170px; height: 56px; left: 86px; top: 86px; position: absolute">
       <img src="../assets/logo.svg"/>
-    </div>
-    <div style="left: 804px; top: 86px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 55px; display: inline-flex">
-        <a href="#" style="color: black; font-size: 24px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Home</a>
-        <a href="#" style="color: black; font-size: 24px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Settings</a>
-        <a href="#" style="color: black; font-size: 24px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Profile</a>
-        <a href="#" style="color: black; font-size: 24px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Logout</a>
-    </div>
+    </div> 
     <div style="width: 778px; height: 1024px; left: 662px; top: 0px; position: absolute; background: rgba(229, 229, 229, 0.41)"></div>
     <div style="left: 210px; top: 177px; position: absolute; text-align: right; color: black; font-size: 50px; font-family: Roboto; font-weight: 700; word-wrap: break-word">Dashboard</div>
     <div style="left: 186px; top: 272px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 61px; display: inline-flex">

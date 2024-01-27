@@ -29,7 +29,7 @@ class StudentController extends Controller
 
         // You may want to add authentication, redirect, etc.
 
-        return redirect()->route('student.register')->with('success', 'Student registered successfully!');
+        return redirect()->route('student.dashboard')->with('success', 'Student registered successfully!');
     }
 }
 

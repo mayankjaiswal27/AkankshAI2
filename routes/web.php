@@ -58,8 +58,8 @@ Route::post('/counselor/login', [CounselorLoginController::class, 'login']);
 Route::post('/counselor/logout', [CounselorLoginController::class, 'logout'])->name('counselor.logout');
 Route::get('/student/dashboard', function () {
     return view('student.dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->name('student.dashboard');
 Route::get('/counselor/dashboard', function () {
     return view('counselor.dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->name('counselor.dashboard');
 require __DIR__.'/auth.php';

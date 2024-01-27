@@ -11,7 +11,7 @@ class Counselor extends Model implements Authenticatable
     use Notifiable;
 
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'college', 'graduated', 'industry_experience', 'career_experience', 'degree_obtained',
     ];
 
     protected $hidden = [
