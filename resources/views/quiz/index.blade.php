@@ -8,8 +8,9 @@
     <title>AkankshAI</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&family=Tenali+Ramakrishna&display=swap');
-        body {}
-
+        body{
+        
+        }
         .navbar {
             padding-top: 1%;
             margin-left: 2.5%;
