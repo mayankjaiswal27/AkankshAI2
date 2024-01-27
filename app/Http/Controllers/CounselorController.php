@@ -19,17 +19,24 @@ class CounselorController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|email|unique:counselors,email',
             'password' => 'required|min:6|confirmed',
+            'college' => 'required|string',
+            'graduated' => 'required|string',
+            'industry_experience' => 'required|string',
+            'career_experience' => 'required|string',
+            'degree_obtained' => 'required|string',
         ]);
 
         $counselor = Counselor::create([
             'name' => $request->input('name'),
             'email' => $request->input('email'),
             'password' => Hash::make($request->input('password')),
+            'college' => $request->input('college'),
+            'graduated' => $request->input('graduated'),
+            'industry_experience' => $request->input('industry_experience'),
+            'career_experience' => $request->input('career_experience'),
+            'degree_obtained' => $request->input('degree_obtained'),
         ]);
 
-        // You may want to add authentication, redirect, etc.
-
-        return redirect()->route('counselor.register')->with('success', 'Counselor registered successfully!');
+        return redirect(url('/counselor/dashboard'))->with('success', 'Counselor registered successfully!');
     }
 }
-

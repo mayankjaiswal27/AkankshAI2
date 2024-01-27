@@ -4,8 +4,6 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\CounselorController;
-use App\Http\Controllers\StudentLoginController;
-use App\Http\Controllers\CounselorLoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -58,8 +56,10 @@ Route::post('/counselor/login', [CounselorLoginController::class, 'login']);
 Route::post('/counselor/logout', [CounselorLoginController::class, 'logout'])->name('counselor.logout');
 Route::get('/student/dashboard', function () {
     return view('student.dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->name('student.dashboard');
 Route::get('/counselor/dashboard', function () {
     return view('counselor.dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->name('counselor.dashboard');
+
+
 require __DIR__.'/auth.php';

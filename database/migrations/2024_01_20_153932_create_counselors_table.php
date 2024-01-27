@@ -17,6 +17,11 @@ class CreateCounselorsTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('college'); 
+            $table->string('graduated'); 
+            $table->string('industry_experience'); // New column for industry experience
+            $table->string('career_experience'); // New column for career counseling experience
+            $table->string('degree_obtained'); // New column for degree obtained
             $table->rememberToken();
             $table->timestamps();
         });
