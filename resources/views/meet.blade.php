@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{asset('css/meet.css')}}">
+    
     
 </head>
 <body>

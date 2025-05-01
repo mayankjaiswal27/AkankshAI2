@@ -16,7 +16,7 @@ Route::get('/meet', function () {
 })->name('meet');
 
 Route::get('/dashboard', function () {
-    return view('dashbaord');
+    return view('dashboard');
 })->name('dashboard');
 
 Route::get('/quiz', [QuizController::class, 'index'])->name('quiz.index');
